@@ -1,0 +1,169 @@
+.background {
+    background: #f0f2f5;
+}
+
+.image {
+    margin: 44px 0 4px 0;
+    margin-top: 44px;
+    margin-right: 0px;
+    margin-bottom: 4px;
+    margin-left: 212px;
+    width: 240px;
+    text-align: center;
+    height: auto;
+}
+
+.square {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    margin: auto;
+    padding: 0 0 14px 0;
+    width: 396px;
+    background-color: white;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-family: inherit;
+    padding: 24px 0 16px 0;
+}
+
+.form-control {
+    font-size: 17px;
+    padding: 14px 16px;
+    border-radius: 6px;
+    color: #1d2129;
+}
+
+.btn-primary {
+    background-color: #1877f2;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: #166fe5;
+}
+
+a.link {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+.logo_div
+{
+    max-width: 240px;
+}
+
+
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+  }
+  
+  /* Add a red text color and an "x" when the requirements are wrong */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+  }
+
+
+  .btn{
+    background-color: #166fe5;
+  }
+
+  .btn:hover{
+    background-color: #166fe5;
+  }
+
+  #from{
+    width: 145px;
+  }
+
+  #to{
+    width: 155px;
+  }
+
+  #drop{
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  #drop1{
+    width: 100px;
+    margin-top: 10px;
+  }
+
+  button, input, optgroup, select, textarea {
+    margin: 0;
+      margin-bottom: 0px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-bottom: 16px;
+  }
+
+#btn1{
+  width: 168px;
+}
+  
+#btn2{
+  width: 173px;
+}
+
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#drop{
+  width: 168px;
+}
+#drop1{
+  width: 173px;
+}
+
+#from{
+  width: 168px;
+}
+#to{
+  width: 173px;
+}
